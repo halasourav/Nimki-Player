@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-class VideoSearchManager: ObservableObject {
+class YouTubeSearchManager: ObservableObject {
     @Published var results: [VideoResult] = []
     
     private let apiKey = "AIzaSyA1JDxG-JFKoFIuhA0xTvF3mEAr6OnQVk8"
