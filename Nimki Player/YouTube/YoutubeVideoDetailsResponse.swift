@@ -16,5 +16,6 @@ struct VideoDetailItem: Codable {
 }
 
 struct ContentDetails: Codable {
-    let duration: String
+    let duration: String // ISO 8601 duration (e.g., PT45S)
 }
+
