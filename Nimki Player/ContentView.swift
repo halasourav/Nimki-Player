@@ -54,7 +54,7 @@ struct ContentView: View {
                     .padding(.horizontal)
                 }
 
-                // MARK: Results
+                // MARK: Video Results
                 if youtubeSearchManager.results.isEmpty && vimeoSearchManager.results.isEmpty {
                     Spacer()
                     Text("No results")
@@ -157,6 +157,7 @@ struct ContentView: View {
         return false
     }
 
+    //MARK: Play Video
     @ViewBuilder
     private func youTubevideoResultView(_ result: YouTubeVideoResult) -> some View {
         HStack {
